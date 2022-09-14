@@ -1,6 +1,6 @@
 # Vorgehen wenn poetry nicht funktioniert
 
-## 1. erstelle manuell ein Virtual environment
+## 1. erstelle manuell ein virtual environment
 öffne neues terminal
 ```shell
 > python -m venv env
