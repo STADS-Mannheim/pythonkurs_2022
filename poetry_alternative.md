@@ -7,7 +7,7 @@
 ```
 (falls python --version 2.7. ausgibt verwende: python3 -m venv env)
 
-## 2. aktieviere es
+## 2. aktiviere es
 Mac:
 ```shell
 > source env/bin/activate
