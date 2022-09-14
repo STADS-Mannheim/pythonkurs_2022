@@ -17,7 +17,7 @@ jeweils Donnerstag 17.15 Uhr in SO 108 + [Zoom](https://zoom.us). Die Teilnehmer
 
 ## Einrichtung der Entwicklungsumgebung
 
-Bitte lest eucht die [Anleitung zur Einrichtung der Entwicklungsumgebung](SetupIDE_Environment.md) durch und folgt den dort beschriebenen Schritten.
+Bitte lest euch die [Anleitung zur Einrichtung der Entwicklungsumgebung](SetupIDE_Environment.md) durch und folgt den dort beschriebenen Schritten.
 Ab dem zweiten Kurstermin setzen wir das Setup voraus.
 
 ## Prüfung
