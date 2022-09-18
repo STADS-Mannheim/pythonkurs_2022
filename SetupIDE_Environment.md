@@ -20,7 +20,7 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Melde dich am Computer ab und melde dich erneut an.
 - Lade [Anaconda](https://www.anaconda.com) herunter. Nach dem Download führe die exe Datei aus und übernehme die empfohlenen Einstellungen. 
 - Melde dich am Computer ab und melde dich erneut an.
-- Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (Windows: cmd) und gebe folgendes ein: conda create --name pythonkurs ein. Führe den Befehl aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein.
+- Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (Windows: cmd) und gebe folgendes ein: conda create --name pythonkurs. Führe den Befehl mit Enter aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein.
 - Super, nun haben wir unser environment erstellt. Zunächst wollen wir dieses öffnen. Gebe dafür in der Konsole conda activate pythonkurs ein. Im Terminal erkennst du nun, dass du das environment geöffnet hast. 
 - Im nächsten Schritt wollen wir unser environment mit all den Packages befüllen, die wir im Verlauf des Kurses benötigen. Lade dafür die Requirements.txt Datei herunter und führe folgende Befehle im Terminal aus: conda install pip und anschließend conda install -r "Pfad zur requirements Datei".
 - Abschließend installieren wir noch jupyter. Führe dazu den Befehl conda install jupyter aus. 
