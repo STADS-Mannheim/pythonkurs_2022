@@ -16,7 +16,7 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Installiere die aktuelle Version von [VS Code](https://code.visualstudio.com) (=Visual Studio Code). Folge dazu den Installationsanweisungen für dein Betriebssystem. Führe die .exe-Datei aus, die du heruntergeladen hast und folge den Voreinstellungen im Installationsprozess.
 
 ## Step 3: Installiere Python und Poetry
-- Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.8 to PATH``` aus.
+- Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.10 to PATH``` aus.
 - Melde dich am Computer ab und melde dich erneut an.
 - Installiere [Poetry](https://python-poetry.org/docs/#installation). Folge dabei unbedingt den `osx / linux / bashonwindows install instructions` auf der Webseite.
 - Melde dich am Computer ab und melde dich erneut an.
