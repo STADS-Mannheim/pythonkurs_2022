@@ -14,23 +14,23 @@ oder
 
 Anschließend solltest du alle angezeigt bekommen, wo dein Betriebssystem eine Python-Installation findet. Falls die Liste leer ist, dann ist bei der Installation was schiefgelaufen.
 
-Wir checken nun, dass wir die richtige Python Version 3.8.5 installiert haben, indem wir ins Terminal eingeben
+Wir checken nun, ob wir Python richtig installiert haben und welche Version installiert ist:
 ```shell
 bash> python --version
-Python 3.8.5
+Python 3.10.4
 
 bash> #dies ist vorerst auch in Ordnung
 bash> python --version 
 Python 2.7.16
 bash> python3 --version
-Python 3.8.5
+Python 3.10.4
 
 ```
 Nun starten wir Python, indem wir `python` ins Terminal eingeben. Jetzt wird Python ausgeführt und du solltest folgenden (oder einen ähnlichen) Konsolenoutput erhalten.
 
 ```shell
 bash> python
-Python 3.8.5 (default, Aug 22 2020, 10:36:09) 
+Python 3.10.5 (default, Aug 22 2022, 10:36:09) 
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 ```
