@@ -21,9 +21,9 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Lade [Anaconda](https://www.anaconda.com) herunter. Nach dem Download führe die exe Datei aus und übernehme die empfohlenen Einstellungen. 
 - Melde dich am Computer ab und melde dich erneut an. 
 - Bevor wir nun das Terminal erstellen, müssen Windows Nutzer einen zusätzlichen Schritt durchführen (für Mac nicht relevant). Öffne in der Suchleiste Systemumgebungsvariablen bearbeiten. Anschließend klicke auf das Feld Umgebungsvariablen. Wähle nun Path aus und klicke auf bearbeiten. Klicke auf Neu und füge den Pfad zu "dein Pfad" + \anaconda3\Scripts hinzu. Anschließend klicke auf ok und schließe die Einstellungen wieder. Nun musst du dein Terminal öffnen (gebe dazu cmd im Suchfeld ein und bestätige mit Enter). Führe den Befehl conda init --all mit Enter aus. 
-- Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (wieder) und gebe folgendes ein: conda create --name pythonkurs. Führe den Befehl mit Enter aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein.
+- Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (wieder) und gebe folgendes ein: conda create --name pythonkurs. Führe den Befehl mit Enter aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein und bestätige mit Enter.
 - Super, nun haben wir unser environment erstellt. Zunächst wollen wir dieses öffnen. Gebe dafür in der Konsole conda activate pythonkurs ein. Im Terminal erkennst du nun, dass du das environment geöffnet hast. 
-- Im nächsten Schritt wollen wir unser environment mit all den Packages befüllen, die wir im Verlauf des Kurses benötigen. Lade dafür die Requirements.txt Datei herunter und führe folgende Befehle im Terminal aus: conda install pip und anschließend conda install -r "Pfad zur requirements Datei".
+- Im nächsten Schritt wollen wir unser environment mit all den Packages befüllen, die wir im Verlauf des Kurses benötigen. Lade dafür die Requirements.txt Datei herunter und führe folgende Befehle im Terminal aus: conda install pip und anschließend pip install -r "Pfad zur requirements Datei". Falls du wieder die Meldung Proceed ([y]/n)? erhältst, gebe y ein und bestätige mit Enter.
 - Abschließend installieren wir noch jupyter. Führe dazu den Befehl conda install jupyter aus. 
 - Glückwunsch, du hast nun dein conda environment installiert. Schließe es wieder mit conda deactivate. Nun kannst du das Terminal schließen. 
  
@@ -46,12 +46,8 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Öffne PyCharm.
 - Erstelle ein neues Projekt, indem du auf New Project klickst.
 - Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
-- Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Wenn du auf den Auswahlpfeil klickst, sollte dir dein environment pythonkurs angezeigt werden. Wähle dieses aus und klicke auf create. Falls dir das environment nicht angezeigt wirst, musst du die python Datei in deinem environment Ordner manuell auswählen.
-- Öffne in PyCharm den Ordner, in den du das Repository geklont hast mit `File > Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
-- Installiere die folgenden Extensions in VSCode aus dem Extension Marketplace.  
-    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-    - [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
-    - Wenn du den Links hier folgst, musst du einmal im Browser und einmal in VS Code den grünen `Install` Button drücken und dazwischen die entsprechenden Freigaben bei Aufforderung erteilen.
+- Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Klicke auf Add Interpreter, anschließend auf Add local interpreter. Nun wähle Conda Environment aus. Wähle nun unser environment pythonkurs aus und klicke auf ok. Anschließend klicke auf create und erstelle das neue Projekt. 
+- Öffne nun in PyCharm den Ordner, in den du das Repository geklont hast mit `File > Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
 
 ## Step 3: Installiere das Poetry-Projekt
 
