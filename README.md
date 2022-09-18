@@ -4,7 +4,7 @@ Dieser Kurs wird in Kooperation zwischen [STADS](https://stads.uni-mannheim.de) 
 
 ## Kurstermine
 
-jeweils Donnerstag 17.15 Uhr in SO 108 + [Zoom](https://zoom.us). Die Teilnehmer erhalten die Einwahldaten per E-Mail.
+Jeweils Donnerstag 17.15 Uhr in SO 108 + [Zoom](https://zoom.us). Die Teilnehmer erhalten die Einwahldaten per E-Mail.
 
 * [Do. 22. September](lec01/agenda.md): Organisatorisches, VS-Code als IDE, Get Started, Syntax, Variablentypen
 * [Do. 29. September](lec02/agenda.md): , Jupyter Notebooks, Logische Strukturen (if-else, for, while), Lambda-Ausdrücke, Funktionen, Klassen
@@ -23,7 +23,7 @@ Ab dem zweiten Kurstermin setzen wir das Setup voraus.
 ## Prüfung
 Es wird eine Zertifikatsklausur und eine Klausur für die Schlüsselqualifikation im Bachelor Wima geben.
 
-Beide Prüfungen werden voraussichtlich als online open book Klausuren geschrieben.
+Beide Prüfungen werden voraussichtlich als Online Open Book Klausuren geschrieben.
 
 Die **Zertifikats-Prüfung** findet am *tbd* statt. Es kann zwischen zwei Terminen frei gewählt werden, eine Anmeldung ist nicht erforderlich. Zur Vorbereitung empfehlen wir die [Übungsklausur](mock_exam/tasks.md). Die Materialien erhaltet ihr wenige Minuten vor Beginn der Klausur sowohl per E-Mail als auch über diese Webseite hier bereitgestellt. Die Prüfung ist eine Open-Book-Klausur, d.h. es dürfen die Kursmaterialien und Google verwendet werden :)
 
