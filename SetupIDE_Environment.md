@@ -34,7 +34,7 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
     ```shell
     > cd C:\Users\moritzkern\projects\uni
     ```
-- Klone unser das eben erzeugte Repository wie folgt. Ersetze dabei %githubname% durch den Namen des erzeugten Repositories. Den Namen des Repositories sieht do, wenn du auf `Code`in Github klickst.
+- Klone unser das eben erzeugte Repository wie folgt. Ersetze dabei %githubname% durch den Namen des erzeugten Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
     ```shell
     > git clone https://github.com/STADS-Mannheim/%repositoryname%
     ```
