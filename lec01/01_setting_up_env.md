@@ -1,4 +1,4 @@
-# Poetry als Paket- und Dependency-Manager
+# Conda als Paket- und Dependency-Manager
 
 - Lade [Anaconda](https://www.anaconda.com) herunter und führe den Installationsmanager mit den Standardeinstellungen aus.
 - Führe nun die folgenden Befehle im Terminal aus.
