@@ -1,7 +1,6 @@
 # Start mit Python Console
 
-Nutze das in PyCharm integrierte Terminal. 
-
+Nutze das in Pycharm integrierte Terminal. 
 Gebe im Terminal je nach Betriebssystem (ausprobieren) ein
 
 ```shell
