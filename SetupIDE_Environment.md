@@ -2,10 +2,6 @@
 
 Die Schritte 1-3 können unabhängig voneinander durchgeführt werden. 
 
-Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt wird und du siehst, wo du klicken musst.
-* [Windows](https://youtu.be/qn96nt-9jaU)
-* [Mac](https://youtu.be/9h5V4XxNm_4)
-
 ## Step 1: Installiere Git und trete Github Classroom bei
 
 - Installiere [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) beschrieben und wähle die vorausgewählten Standardeinstellungen.
@@ -46,22 +42,8 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Öffne PyCharm.
 - Erstelle ein neues Projekt, indem du auf New Project klickst.
 - Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
-- Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Klicke auf Add Interpreter, anschließend auf Add local interpreter. Nun wähle Conda Environment aus. Wähle nun unser environment pythonkurs aus und klicke auf ok. Entferne den Haken bei Create a main.py welcome script und klicke auf create. Super, du hast nun dein erstes PyCharm Projekt erstellt.
+- Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Klicke auf Add Interpreter, anschließend auf Add local interpreter. Nun wähle Conda Environment aus. Wähle unser environment pythonkurs aus und klicke auf ok. Entferne den Haken bei Create a main.py welcome script und klicke auf create. Super, du hast nun dein erstes PyCharm Projekt erstellt.
 - Öffne nun in PyCharm den Ordner, in den du das Repository geklont hast mit `File > Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
-
-## Step 3: Installiere das Poetry-Projekt
-
-- Öffne in VSCode das Terminal (`Terminal -> New Terminal`). Wähle dabei unter Windows nicht die Powershell, das könnte zu Problemen führen. Führe `poetry install` aus.
-    ```shell
-    > poetry install
-    Creating virtualenv pythonkurs2020-part1 in C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started\.venv
-    Installing dependencies from lock file
-
-    Package operations: 62 installs, 0 updates, 0 removals
-
-    - Installing ipython-genutils (0.2.0)
-    ...
-    ```
 
 
 Herzlichen Glückwunsch, du hast das Setup abgeschlossen und alle technischen Voraussetzungen für den Pythonkurs sind geschaffen! :)
