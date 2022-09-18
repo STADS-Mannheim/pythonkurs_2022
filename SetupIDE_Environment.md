@@ -19,7 +19,8 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.10 to PATH``` aus.
 - Melde dich am Computer ab und melde dich erneut an.
 - Lade [Anaconda](https://www.anaconda.com) herunter. Nach dem Download führe die exe Datei aus und übernehme die empfohlenen Einstellungen. 
-- Melde dich am Computer ab und melde dich erneut an.
+- Melde dich am Computer ab und melde dich erneut an. 
+- Bevor wir nun das Terminal erstellen, müssen Windows Nutzer einen zusätzlichen Schritt durchführen (für Mac nicht relevant). Öffne in der Suchleiste Systemumgebungsvariablen bearbeiten. Anschließend klicke auf das Feld Umgebungsvariablen. Wähle nun Path aus und klicke auf bearbeiten. Klicke auf Neu und füge den Pfad zu "dein Pfad" + \anaconda3\Scripts hinzu. Anschließend klicke auf ok und schließe die Einstellungen wieder.
 - Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (Windows: cmd) und gebe folgendes ein: conda create --name pythonkurs. Führe den Befehl mit Enter aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein.
 - Super, nun haben wir unser environment erstellt. Zunächst wollen wir dieses öffnen. Gebe dafür in der Konsole conda activate pythonkurs ein. Im Terminal erkennst du nun, dass du das environment geöffnet hast. 
 - Im nächsten Schritt wollen wir unser environment mit all den Packages befüllen, die wir im Verlauf des Kurses benötigen. Lade dafür die Requirements.txt Datei herunter und führe folgende Befehle im Terminal aus: conda install pip und anschließend conda install -r "Pfad zur requirements Datei".
