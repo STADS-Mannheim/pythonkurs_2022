@@ -1,6 +1,6 @@
 # Poetry als Paket- und Dependency-Manager
 
-- Installiere *[Anaconda](https://www.anaconda.com). Folge den Standardeinstellungen der exe Datei.
+- Installiere [Anaconda](https://www.anaconda.com). Folge den Standardeinstellungen der exe Datei.
 - Führe nun die folgenden Befehle im Terminal aus.
     ```shell
     conda create --name pythonkurs 
