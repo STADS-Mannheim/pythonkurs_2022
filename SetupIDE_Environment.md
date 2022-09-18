@@ -15,16 +15,17 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 
 - Installiere die aktuelle Version von [PyCharm Community Edition](https://www.jetbrains.com/de-de/pycharm). Folge dazu den Installationsanweisungen für dein Betriebssystem. Führe die .exe-Datei aus, die du heruntergeladen hast und folge den Voreinstellungen im Installationsprozess.
 
-## Step 3: Installiere Python und Poetry
+## Step 3: Installiere Python und Anaconda 
 - Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.10 to PATH``` aus.
 - Melde dich am Computer ab und melde dich erneut an.
-- Installiere [Poetry](https://python-poetry.org/docs/#installation). Folge dabei unbedingt den `osx / linux / bashonwindows install instructions` auf der Webseite.
+- Lade [Anaconda](https://www.anaconda.com) herunter. Nach dem Download führe die exe Datei aus und übernehme die empfohlenen Einstellungen. 
 - Melde dich am Computer ab und melde dich erneut an.
-- Führe nun den folgenden Befehl im Terminal aus
-    ```shell
-    > poetry config virtualenvs.in-project true
-    ````
-
+- Nun erstellen wir unser conda environment. Öffne dazu dein Terminal (Windows: cmd) und gebe folgendes ein: conda create --name pythonkurs ein. Führe den Befehl aus. Wenn du die Meldung Proceed ([y]/n)? erhältst, gebe y ein.
+- Super, nun haben wir unser environment erstellt. Zunächst wollen wir dieses öffnen. Gebe dafür in der Konsole conda activate pythonkurs ein. Im Terminal erkennst du nun, dass du das environment geöffnet hast. 
+- Im nächsten Schritt wollen wir unser environment mit all den Packages befüllen, die wir im Verlauf des Kurses benötigen. Lade dafür die Requirements.txt Datei herunter und führe folgende Befehle im Terminal aus: conda install pip und anschließend conda install -r "Pfad zur requirements Datei".
+- Abschließend installieren wir noch jupyter. Führe dazu den Befehl conda install jupyter aus. 
+- Glückwunsch, du hast nun dein conda environment installiert. Schließe es wieder mit conda deactivate. Nun kannst du das Terminal schließen. 
+ 
 # Get Started Teil 2: Setting up Pythonkurs Projekt
 
 
@@ -40,10 +41,12 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
     ```
     Du wirst nach deinem Github Nutzernamen und -Passwort gefragt und musst die beiden eingeben.
 
-## Step 2: Setting up VS Code Workspace
-- Öffne VSCode.
-- Öffne in VSCode den Ordner, in den du das repository geklont hast mit `Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
-- Speichere den nun erstellten Workspace (`File > Save Workspace As...`). Gebe einen beliebigen Dateinamen z.B. `pythonkurs.code-workspace` an.
+## Step 2: Setting up PyCharm Workspace
+- Öffne PyCharm.
+- Erstelle ein neues Projekt, indem du auf New Project klickst.
+- Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
+- Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Wenn du auf den Auswahlpfeil klickst, sollte dir dein environment pythonkurs angezeigt werden. Wähle dieses aus und klicke auf create. Falls dir das environment nicht angezeigt wirst, musst du die python Datei in deinem environment Ordner manuell auswählen.
+- Öffne in PyCharm den Ordner, in den du das Repository geklont hast mit `File > Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
 - Installiere die folgenden Extensions in VSCode aus dem Extension Marketplace.  
     - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     - [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
