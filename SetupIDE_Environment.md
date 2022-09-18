@@ -11,9 +11,9 @@ Wir haben dir auch zwei Videos vorbereitet, in denen die Installation erklärt w
 - Installiere [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) beschrieben und wähle die vorausgewählten Standardeinstellungen.
 - Erstelle dir einen [Github-Account](https://github.com/join).
 
-## Step 2: Installiere VS-Code als IDE
+## Step 2: Installiere PyCharm als IDE
 
-- Installiere die aktuelle Version von [VS Code](https://code.visualstudio.com) (=Visual Studio Code). Folge dazu den Installationsanweisungen für dein Betriebssystem. Führe die .exe-Datei aus, die du heruntergeladen hast und folge den Voreinstellungen im Installationsprozess.
+- Installiere die aktuelle Version von [PyCharm Community Edition](https://www.jetbrains.com/de-de/pycharm) (=Visual Studio Code). Folge dazu den Installationsanweisungen für dein Betriebssystem. Führe die .exe-Datei aus, die du heruntergeladen hast und folge den Voreinstellungen im Installationsprozess.
 
 ## Step 3: Installiere Python und Poetry
 - Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.10 to PATH``` aus.
