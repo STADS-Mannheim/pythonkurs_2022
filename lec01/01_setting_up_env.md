@@ -6,7 +6,7 @@
     conda init --all 
     ````
 Bestätige mit Enter. Sobald der Befehl ausgeführt ist, starte das Terminal neu. 
-- Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe nacheinander folgende Befehle aus:
+- Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe nacheinander folgende Befehle aus (Falls die Meldung Proceed ([y]/n)? erscheint, gebe y ein und bestätige mit Enter):
     ```shell
     conda create --name pythonkurs
     ````
@@ -19,11 +19,13 @@ Bestätige mit Enter. Sobald der Befehl ausgeführt ist, starte das Terminal neu
     ```shell
     pip install -r requirements.txt
     ```
-- Nun wählen wir das erzeugte Environment als Python Interpreter für unser Projekt in VSCode. Dazu wähle in der [Kommandopalette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette) *"Select Python Interpreter"* aus und wähle nun den Interpreter im Ordner `.venv` in deinem Projektverzeichnis.
-- Öffne nun im Terminal eine neue Session mit *"+"*. Das Terminal sollte jetzt im venv öffnen:
+- Als letztes wollen wir noch jupyter zu unserem Environment hinzufügen. Dazu führe den Befehl
     ```shell
-    (.venv)> waiting
+    conda install jupyter 
     ```
+  aus. Super, nun ist unser environment bereit und wir können das Terminal schließen. 
+- Jetzt wählen wir das erzeugte Environment als Python Interpreter für unser Projekt in PyCharm. Dazu öffnen wir Pycharm und erstellen ein neues Projekt. Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an. Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Klicke auf Add Interpreter, anschließend auf Add local interpreter. Nun wähle Conda Environment aus. Wähle unser environment pythonkurs aus und klicke auf ok. Entferne den Haken bei Create a main.py welcome script und klicke auf create. Super, du hast nun dein erstes PyCharm Projekt erstellt.
+- Zulezt wollen wir noch den Interpreter für die console einstellen. Klicke hierzu auf PyCharm > Preferences > Build, Execution, Deployment > Console > Python Console und wähle als Interpreter unser Environment aus.  
 
 # Installiere Dev-Dependencies
 Wir installieren jetzt
@@ -48,3 +50,6 @@ Package operations: 62 installs, 0 updates, 0 removals
     ...
   - Installing pylint (2.6.0)
 ```
+    ```shell
+    pip install -r requirements.txt
+    ```
