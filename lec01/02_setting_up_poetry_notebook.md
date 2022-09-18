@@ -1,9 +1,9 @@
 # Poetry als Paket- und Dependency-Manager
 
-- Installiere [Poetry](https://python-poetry.org/docs/#installation). Folge dabei unbedingt den `osx / linux / bashonwindows install instructions` bzw. unter Windows den `windows powershell install instructions` auf der Webseite.
-- Führe nun die folgenden Befehle im Projekt als Working Directory (z.B. C:\...\pythonkurs2020) aus.
+- Installiere [Anaconda](https://python-poetry.org/docs/#installation](https://www.anaconda.com). Folge den Standardeinstellungen der exe Datei.
+- Führe nun die folgenden Befehle im Terminal aus.
     ```shell
-    shell> poetry config virtualenvs.in-project true
+    conda create --name pythonkurs 
     ````
 - Jetzt initialisiere das virtuelle Environment
     ```shell
