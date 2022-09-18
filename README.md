@@ -7,7 +7,7 @@ Dieser Kurs wird in Kooperation zwischen [STADS](https://stads.uni-mannheim.de) 
 Jeweils Donnerstag 17.15 Uhr in SO 108 + [Zoom](https://zoom.us). Die Teilnehmer erhalten die Einwahldaten per E-Mail.
 
 * [Do. 22. September](lec01/agenda.md): Organisatorisches, VS-Code als IDE, Get Started, Syntax, Variablentypen
-* [Do. 29. September](lec02/agenda.md): , Jupyter Notebooks, Logische Strukturen (if-else, for, while), Lambda-Ausdrücke, Funktionen, Klassen
+* [Do. 29. September](lec02/agenda.md): Jupyter Notebooks, Logische Strukturen (if-else, for, while), Lambda-Ausdrücke, Funktionen, Klassen
 * [Do. 6. Oktober](lec03/agenda.md): Numpy, Pandas (Teil 1/2)
 * [Do. 13. Oktober](lec04/agenda.md): Pandas (Teil 2/2), Matplotlib 
 * [Do. 20. Oktober](lec05/agenda.md): Seaborn, Plotly
