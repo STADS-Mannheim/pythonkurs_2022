@@ -1,4 +1,4 @@
-# Vorgehen wenn poetry nicht funktioniert
+# Vorgehen wenn Conda nicht funktioniert
 
 ## 1. erstelle manuell ein virtual environment
 öffne neues terminal
