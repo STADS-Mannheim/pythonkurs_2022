@@ -1,6 +1,6 @@
 # Start mit Python Console
 
-Nutze das in VS Code integrierte Terminal. Falls es nicht angezeigt wird, [öffne es](https://code.visualstudio.com/docs/editor/integrated-terminal) (`Terminal > New Terminal`). Bitte achte unter Windows darauf, `cmd` und nicht `powershell`zu benutzen.
+Nutze das in PyCharm integrierte Terminal. 
 
 Gebe im Terminal je nach Betriebssystem (ausprobieren) ein
 
