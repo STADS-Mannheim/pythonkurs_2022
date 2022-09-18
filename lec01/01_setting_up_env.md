@@ -6,12 +6,18 @@
     conda init --all 
     ````
 Bestätige mit Enter. Sobald der Befehl ausgeführt ist, starte das Terminal neu. 
-- Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe folgendee Befehle aus:
+- Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe nacheinander folgende Befehle aus:
     ```shell
     conda create --name pythonkurs
     ````
     ```shell
-    shell> poetry init
+    conda activate pythonkurs 
+    ```
+    ```shell
+    conda install pip
+    ```
+    ```shell
+    pip install -r requirements.txt
     ```
 - Nun wählen wir das erzeugte Environment als Python Interpreter für unser Projekt in VSCode. Dazu wähle in der [Kommandopalette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette) *"Select Python Interpreter"* aus und wähle nun den Interpreter im Ordner `.venv` in deinem Projektverzeichnis.
 - Öffne nun im Terminal eine neue Session mit *"+"*. Das Terminal sollte jetzt im venv öffnen:
