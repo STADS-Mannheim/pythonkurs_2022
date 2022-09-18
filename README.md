@@ -12,7 +12,7 @@ jeweils Donnerstag 17.15 Uhr in SO 108 + [Zoom](https://zoom.us). Die Teilnehmer
 * [Do. 13. Oktober](lec04/agenda.md): Pandas (Teil 2/2), Matplotlib 
 * [Do. 20. Oktober](lec05/agenda.md): Seaborn, Plotly
 * [Do. 27. Oktober](lec06/agenda.md): Besserer Code mit Pylint und Black, Docstring, Doctests 
-* [Do. 10. November](lec07/agenda.md): noch offen
+* [Do. 10. November](lec07/agenda.md): Schnellerer Code durch Parallelisierung 
 
 
 ## Einrichtung der Entwicklungsumgebung
