@@ -32,7 +32,7 @@ Führe folgende Befehle im Terminal (zsh) aus:
 
 ... und starte ein neues Terminal Fenster.
 
-## 3. installiere Python versionen (hier 3.8.5)
+## 3. installiere Python versionen (hier 3.10.7)
 
 ```shell
 > pyenv install 2.7.8
@@ -40,11 +40,11 @@ Führe folgende Befehle im Terminal (zsh) aus:
 setze Python3.8.5 als globale oder lokale 'Standardversion'
 
 ```shell
-> pyenv global 3.8.5
+> pyenv global 3.10.7
 ```
 
 ## 4. check
 ```shell
 > python --version
-Python 3.8.5
+Python 3.10.7
 ```
