@@ -9,6 +9,7 @@ Bestätige mit Enter. Sobald der Befehl ausgeführt ist, starte das Terminal neu
 - Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe folgendee Befehle aus:
     ```shell
     conda create --name pythonkurs
+    ````
     ```shell
     shell> poetry init
     ```
