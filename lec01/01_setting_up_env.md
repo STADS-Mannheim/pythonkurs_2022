@@ -1,19 +1,14 @@
 # Conda als Paket- und Dependency-Manager
 
 - Lade [Anaconda](https://www.anaconda.com) herunter und führe den Installationsmanager mit den Standardeinstellungen aus.
-- Führe nun die folgenden Befehle im Terminal aus.
+- Falls du einen Windows Rechner hast, öffne im Suchfeld "Systemumgebungsvariablen bearbeiten". Anschließend klicke auf das Feld Umgebungsvariablen. Wähle nun Path aus und klicke auf bearbeiten. Klicke auf Neu und füge den Pfad zu \anaconda3\Scripts hinzu, also z. B. "C:\Users\lucaslinden\anaconda3\Scripts". Als nächstes öffne das Terminal (cmd im Suchfeld eingeben) und gebe folgendes ein:
     ```shell
-    conda create --name pythonkurs 
+    conda init --all 
     ````
-- Jetzt initialisiere das virtuelle Environment
+Bestätige mit Enter. Sobald der Befehl ausgeführt ist, starte das Terminal neu. 
+- Nun initialisieren wir das Environment. Ab hier, müssen auch die MAC Nutzer wieder mitarbeiten ;-) Führe folgendee Befehle aus:
     ```shell
-    shell> poetry install
-    Creating virtualenv pythonkurs2020-part1 in /%path_to_folder%/pythonkurs2020_1_get_started/.venv
-    Installing dependencies from lock file
-
-    No dependencies to install or update
-    ```
-    *(alternativ) Falls du alternativ ein neues Paket initialisiertst, verwende folgenden Befehl*
+    conda create --name pythonkurs
     ```shell
     shell> poetry init
     ```
