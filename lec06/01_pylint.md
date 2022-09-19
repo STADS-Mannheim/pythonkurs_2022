@@ -18,7 +18,8 @@ Der Coding-Standard nachdem `pylint` prüft orientiert sich dabei an
 [PEP 8](https://www.python.org/dev/peps/pep-0008/), 
 dem Style Guide für Python Code. Dabei steht "PEP" für "Python Enhancement Proposals".
 
-Installation von pylint 
+# Installation von pylint 
+
 Öffne das Terminal und aktiviere dein Environment mit 
 ```conda activate pythonkurs```. Anschließend installiere pylint mit ```pip install pylint```. Gebe als nächstes ```which pylint``` bzw. ```where pylint``` ein und kopiere den ausgegebenen Pfad. Nun öffne PyCharm. Navigiere zu PyCharm > Preferences > Tools > External Tools. Nun klicke auf das + Symbol und ergänze pylint. Ergänze die Felder wie folgt:
 - Name: pylint
