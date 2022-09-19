@@ -20,7 +20,7 @@ dem Style Guide für Python Code. Dabei steht "PEP" für "Python Enhancement Pro
 
 Installation von pylint 
 Öffne das Terminal und aktiviere dein Environment mit 
-```shell conda activate pythonkurs```
+```conda activate pythonkurs```. Anschließend installiere pylint mit ```pip install pylint```. Nun öffne PyCharm.
 
 # Erstes Beispiel
 
