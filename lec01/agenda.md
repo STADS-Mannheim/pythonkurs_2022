@@ -3,7 +3,7 @@
 Bitte verwendet für den Kurstermin das [Github Assignment](https://classroom.github.com/a/DmEOgn_0). Ihr benötigt dazu einen Github-Account.
 
 * Organisatorisches (10 min)
-* [Conda und Jupyter Notebooks](01_setting_up_poetry_notebook.md) (15 min)
+* [Conda und Jupyter Notebooks](01_setting_up_conda.md) (15 min)
 * PyCharm als IDE - [Get Started](02_start_with_console.md) (10 min)
 * [Get Started with Syntax](01_get_started_syntax.py) (10 min)
 * [Übung](02_get_started_syntax_exercise.py) zu "Get Started with Syntax" (10 min)
