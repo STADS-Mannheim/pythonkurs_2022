@@ -24,8 +24,8 @@ Installation von pylint
 - Name: pylint
 - Description: Pylint as an external tool
 - Program: Dein kopierter Pfad (Speicherort von Pylint)
-- Arguments /Parameters: $FilePath$
-- Working Directory: $ProjectFileDir$
+- Arguments /Parameters: ```$FilePath$```
+- Working Directory: ```$ProjectFileDir$
 
 # Erstes Beispiel
 
