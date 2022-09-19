@@ -18,6 +18,9 @@ Der Coding-Standard nachdem `pylint` prüft orientiert sich dabei an
 [PEP 8](https://www.python.org/dev/peps/pep-0008/), 
 dem Style Guide für Python Code. Dabei steht "PEP" für "Python Enhancement Proposals".
 
+Installation von pylint 
+Öffne das Terminal und aktiviere dein Environment mit 
+```shell conda activate pythonkurs```
 
 # Erstes Beispiel
 
