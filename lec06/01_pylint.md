@@ -46,20 +46,18 @@ def quicksort(arr):
     return quicksort(Left) + middle + quicksort(right)
 ```
     
-Jetzt führen wir im Terminal folgenden Befehl aus und erhalten als Output
+Jetzt klicken wir in PyCharm mit rechts auf die Datei ec06/ex02_pylint_example.py und steuern zu External Tools > pylint. Wir erhalten folgenden Output:
 
 ```bash
-(.venv)> pylint lec06/ex02_pylint_example.py
-************* Module ex02_pylint_example
-lec06/ex02_pylint_example.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-lec06/ex02_pylint_example.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
-lec06/ex02_pylint_example.py:6:4: C0103: Variable name "Left" doesn't conform to snake_case naming style (invalid-name)
-lec06/ex02_pylint_example.py:9:4: W0125: Using a conditional statement with a constant value (using-constant-test)
+************* Module 02_pylint_example
+lec06/02_pylint_example.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+lec06/02_pylint_example.py:1:0: C0103: Module name "02_pylint_example" doesn't conform to snake_case naming style (invalid-name)
+lec06/02_pylint_example.py:3:0: W0611: Unused numpy imported as np (unused-import)
 
--------------------------------------------------------------------
-Your code has been rated at 6.36/10 (previous run: 10.00/10, -3.64)
+------------------------------------------------------------------
+Your code has been rated at 7.00/10 (previous run: 7.00/10, +0.00)
 ```
-Wenn wir uns jetzt dafür interessieren, was mit der Fehlermeldung genau gemeint ist, können wir ausführen
+Wenn wir uns jetzt dafür interessieren, was mit der Fehlermeldung genau gemeint ist, können wir im Terminal folgdendes ausführen
     
 ```bash
 (.venv)> pylint --help-msg=missing-module-docstring
