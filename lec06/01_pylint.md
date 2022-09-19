@@ -28,7 +28,7 @@ dem Style Guide für Python Code. Dabei steht "PEP" für "Python Enhancement Pro
 - Arguments /Parameters: ```$FilePath$```
 - Working Directory: ``` $ProjectFileDir$ ```
 
-Eine detailierte Beschreibung mit Bildern findest du auch [hier](https://stackoverflow.com/questions/38134086/how-to-run-pylint-with-pycharm)
+Eine detailierte Beschreibung mit Bildern findest du auch [hier](https://stackoverflow.com/questions/38134086/how-to-run-pylint-with-pycharm).
 # Erstes Beispiel
 
 Wir legen eine Datei `lec06/ex02_pylint_example.py` mit folgendem Inhalt an.
