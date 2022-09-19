@@ -20,7 +20,12 @@ dem Style Guide für Python Code. Dabei steht "PEP" für "Python Enhancement Pro
 
 Installation von pylint 
 Öffne das Terminal und aktiviere dein Environment mit 
-```conda activate pythonkurs```. Anschließend installiere pylint mit ```pip install pylint```. Nun öffne PyCharm.
+```conda activate pythonkurs```. Anschließend installiere pylint mit ```pip install pylint```. Gebe als nächstes ```which pylint``` bzw. ```where pylint``` ein und kopiere den ausgegebenen Pfad. Nun öffne PyCharm. Navigiere zu PyCharm > Preferences > Tools > External Tools. Nun klicke auf das + Symbol und ergänze pylint. Ergänze die Felder wie folgt:
+- Name: pylint
+- Description: Pylint as an external tool
+- Program: Dein kopierter Pfad (Speicherort von Pylint)
+- Arguments /Parameters: $FilePath$
+- Working Directory: $ProjectFileDir$
 
 # Erstes Beispiel
 
