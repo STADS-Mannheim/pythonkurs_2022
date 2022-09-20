@@ -8,8 +8,6 @@
 * Meeting-ID: 67602509274
 * Passcode: 032903
 
-\
-[Hier](../poetry_alternative.md) findet Ihr eine kurze Erklärung, wie Ihr ohne **poetry** vorgehen könnt.
 
 ## Themen 
 * [Logische Strukturen (if, for, while), Lambda-Audrücke, Funktionen, Fehler-Handhabung](03_logical_functions.ipynb)
