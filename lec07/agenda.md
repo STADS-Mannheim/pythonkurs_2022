@@ -10,9 +10,8 @@ Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://class
 ## Themen 
 
 * Organisatorisches *(10 min)*
-* [Erstes Dashboard mit Plotly](02_app.py)
-* [Corona-Dashboard mit Plotly](03_app.py) - dabei Verwendung des [Datenfiles](data.pickle.gzip).
-* in der Vorlesung erstellte App findet ih [hier](01_app_lecture.py)
+* Datenscrapping 
+* Multiprocessing 
 * Fragen, Ausblick (5 min)
 
-Bitte denkt dran, die neuen Pakete zu installieren `poetry add dash dash-bootstrap-components` bzw. `pip install dash dash-bootstrap-components`
+Bitte denkt dran, die neuen Pakete zu installieren `pip install multiprocessing` bzw. `pip install fastparquet`
