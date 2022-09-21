@@ -7,7 +7,7 @@
 
 
 ## Themen 
-* [Logische Strukturen (if, for, while), Lambda-Audrücke, Funktionen, Fehler-Handhabung](03_logical_functions.ipynb)
+* [Logische Strukturen (if, for, while), Lambda-Audrücke, Funktionen, Fehler-Handhabung](01_logical_functions.ipynb)
 * [classen in Python, OOP](03_objekt_orientiert.ipynb)
 * Fragen, Ausblick (5 min)
 * [Übung](02_logical_functions_exercise.ipynb) zu "logischen Strukturen und Funktionen" (45 Minuten) mit [Lösung](04_logical_functions_exercise_solution.ipynb)
