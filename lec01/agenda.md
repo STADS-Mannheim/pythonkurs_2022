@@ -16,6 +16,6 @@ Für die zweite Woche ist die [Einrichtung der IDE](../SetupIDE_Environment.md) 
 
 # Einwahldaten 
 
-Meeting Url: https://uni-mannheim.zoom.us/j/62716436487?pwd=QXI4YitZTnRNd0ZLR0FXNUdlcTdkQT09
-Meeting-ID: 62716436487
-Kenncode: 619286
+* Meeting Url: https://uni-mannheim.zoom.us/j/62716436487?pwd=QXI4YitZTnRNd0ZLR0FXNUdlcTdkQT09
+* Meeting-ID: 62716436487
+* Kenncode: 619286
