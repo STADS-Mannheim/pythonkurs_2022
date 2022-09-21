@@ -1,9 +1,9 @@
 # Agenda 6. Kurstermin
 
 ## Einwahldaten
-* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/64429468906?pwd=TkdFQmNmdUFyQ3NRTkVlK3dRa2Nkdz09) 
-* Meeting-ID: 64429468906
-* Passcode: 947062
+* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/62634781447?pwd=Mm41Q0xPbVVta0lEVnZCbDFMZVFrZz09)
+* Meeting-ID: 62634781447
+* Passcode: 389715
 
 Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://classroom.github.com/a/rTTQDwVT) werden.
 
