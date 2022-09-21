@@ -37,9 +37,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 ## Fehlerbehandlung: 
 Falls nicht die richtige Python-Version gefunden wird, dann muss in den Umgebungsvariablen unter Windows hinzugefügt werden in die PATH-Variable ganz oben `C:\Users\%username%\AppData\Local\Programs\Python-38-32\python.exe`. Anschließend abmelden und wieder neu anmelden.\
 Für Mac-User führt folgenden Befehl im Terminal aus und startet ein neues Terminal Fenster:
-echo -n 'export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"' >> ~/.zshrc
+echo -n 'export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"' >> ~/.zshrc
 
-Falls immer noch fehler auftreten, versucht es mit [pyenv](https://github.com/pyenv/pyenv#readme) bzw. für windows [pyenv](https://github.com/pyenv-win/pyenv-win#readme).\
+Falls immer noch Fehler auftreten, versucht es mit [pyenv](https://github.com/pyenv/pyenv#readme) bzw. für windows [pyenv](https://github.com/pyenv-win/pyenv-win#readme).\
 pyenv ist das empfohlene und gängigste Tool zum einfachen Verwalten globaler und lokaler Python Versionen.  
 Hier eine kurze pyenv [Anleitung](pyenv.md) für macOS.
 
