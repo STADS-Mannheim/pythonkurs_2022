@@ -1,12 +1,9 @@
 # Agenda 2. Kurstermin
 
-# Github Assignment
-[week2](https://classroom.github.com/a/N3hJfnhu)
-
 # Einwahldaten
-* (https://uni-mannheim.zoom.us/j/67602509274?pwd=VFo1WmZab2VZYS9pYmlTVjlpajlFUT09)
-* Meeting-ID: 67602509274
-* Passcode: 032903
+* https://uni-mannheim.zoom.us/j/62716436487?pwd=QXI4YitZTnRNd0ZLR0FXNUdlcTdkQT09
+* Meeting-ID: 62068109899
+* Passcode: 997198
 
 
 ## Themen 
