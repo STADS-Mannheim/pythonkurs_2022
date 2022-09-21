@@ -1,7 +1,5 @@
 # Agenda 1. Kurstermin
 
-Bitte verwendet für den Kurstermin das [Github Assignment](https://classroom.github.com/a/DmEOgn_0). Ihr benötigt dazu einen Github-Account.
-
 * Organisatorisches (10 min)
 * [Conda und Jupyter Notebooks](01_setting_up_conda_env.md) (15 min)
 * PyCharm als IDE - [Get Started](02_start_with_console.md) (10 min)
