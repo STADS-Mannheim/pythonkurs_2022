@@ -8,7 +8,6 @@
 
 ## Repository klonen
 
-* Ihr könnt das Repository direkt [als Github-Assignment klonen](https://classroom.github.com/a/JD-V8tKA)
 * Ihr müsst dazu `git clone https://github.com/STADS-Mannheim/%repositoryname%` in eurem Terminal ausführen.
 
 ## Themen 
