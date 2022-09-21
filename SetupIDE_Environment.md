@@ -33,7 +33,7 @@ Die Schritte 1-3 können unabhängig voneinander durchgeführt werden.
     ```
 - Klone unser Repository wie folgt. Ersetze dabei %githubname% durch den Namen unseres Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
     ```shell
-    > git clone https://github.com/STADS-Mannheim/%repositoryname%
+    > git clone https://github.com/STADS-Mannheim/pythonkurs_2022.git
     ```
     Du wirst nach deinem Github Nutzernamen und -Passwort gefragt und musst die beiden eingeben.
 
