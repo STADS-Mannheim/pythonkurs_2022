@@ -12,4 +12,10 @@ Bitte verwendet für den Kurstermin das [Github Assignment](https://classroom.gi
 * Fragen 
 
 
-Für die zweite Woche ist die [Einrichtung der IDE](../SetupIDE_Environment.md) erforderlich. Bei Fragen hierzu könnt ihr eine Mail an [maximilian.birr@stads.de](mailto:kurse@stads.de) schreiben.
+Für die zweite Woche ist die [Einrichtung der IDE](../SetupIDE_Environment.md) erforderlich. Bei Fragen hierzu könnt ihr eine Mail an [lucas.linden@stads.de](mailto:kurse@stads.de) schreiben.
+
+# Einwahldaten 
+
+Meeting Url: https://uni-mannheim.zoom.us/j/62716436487?pwd=QXI4YitZTnRNd0ZLR0FXNUdlcTdkQT09
+Meeting-ID: 62716436487
+Kenncode: 619286
