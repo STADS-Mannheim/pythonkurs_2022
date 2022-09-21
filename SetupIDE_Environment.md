@@ -27,12 +27,11 @@ Die Schritte 1-3 können unabhängig voneinander durchgeführt werden.
 
 
 ## Step 1: Clone Repository
-- Erzeuge dir das Assignment Repository im [Classroom](https://classroom.github.com/a/DmEOgn_0). Ggfs. musst du dich noch beim Vorgang authentifizieren.
 - Öffne die Git Bash (oder das Terminal) und navigiere mit `cd` zum Ordner, in dem du dein Pythonkurs-Repository ablegen möchtest, z.B.
     ```shell
     > cd C:\Users\moritzkern\projects\uni
     ```
-- Klone unser das eben erzeugte Repository wie folgt. Ersetze dabei %githubname% durch den Namen des erzeugten Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
+- Klone unser Repository wie folgt. Ersetze dabei %githubname% durch den Namen unseres Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
     ```shell
     > git clone https://github.com/STADS-Mannheim/%repositoryname%
     ```
