@@ -1,7 +1,7 @@
 # Agenda 4. Kurstermin
 
 ## Einwahldaten
-* https://uni-mannheim.zoom.us/j/62522078257?pwd=T2t2ODBtUVZuZFlpWkFhVkNUNjhFdz09](https://uni-mannheim.zoom.us/j/64346659963?pwd=NXE3QjVEeTZwZExRSG82NmRJUUZVUT09
+* https://uni-mannheim.zoom.us/j/64346659963?pwd=NXE3QjVEeTZwZExRSG82NmRJUUZVUT09
 * Meeting-ID:  64346659963
 * Passcode: 565558
 
