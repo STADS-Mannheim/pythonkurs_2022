@@ -1,9 +1,9 @@
 # Agenda 3. Kurstermin
 
 ## Einwahldaten
-* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/65866567023?pwd=ZTFPTXIwRmpGSmVBQnBGQ3BsejdGQT09) 
-* Meeting-ID: 65866567023
-* Passcode: 664236
+* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/68826197264?pwd=djJhU21mVUM5bzFuNytTUUtpamcxZz09)
+* Meeting-ID: 68826197264
+* Passcode: 210914
 
 
 ## Repository klonen
