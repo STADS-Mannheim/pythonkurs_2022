@@ -1,13 +1,9 @@
 # Agenda 5. Kurstermin
 
 ## Einwahldaten
-* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/68562582987?pwd=dnN1bTJCZkQ1K0x2WGlIS3hFNkRQdz09) 
-* Meeting-ID: 68562582987
-* Passcode: 152554
-
-## Git Hub Assignment week 5
-
-Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://classroom.github.com/a/p68Ji0NL) werden.
+* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/62952081734?pwd=NnhSSnJCRHFLaEdKb3hHeFF4dkppQT09)
+* Meeting-ID: 62952081734
+* Passcode: 918716
 
 ## Themen 
 
