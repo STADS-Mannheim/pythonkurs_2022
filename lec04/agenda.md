@@ -1,13 +1,9 @@
 # Agenda 4. Kurstermin
 
 ## Einwahldaten
-* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/62522078257?pwd=T2t2ODBtUVZuZFlpWkFhVkNUNjhFdz09) 
-* Meeting-ID: 62522078257
-* Passcode: 545166
-
-## Github Assignment
-
-[pythonkurs2021_week4](https://classroom.github.com/a/pZVGIzjE)
+* [Join Zoom Meeting](https://uni-mannheim.zoom.us/j/62522078257?pwd=T2t2ODBtUVZuZFlpWkFhVkNUNjhFdz09](https://uni-mannheim.zoom.us/j/64346659963?pwd=NXE3QjVEeTZwZExRSG82NmRJUUZVUT09) 
+* Meeting-ID:  64346659963
+* Passcode: 565558
 
 ## Themen 
 
