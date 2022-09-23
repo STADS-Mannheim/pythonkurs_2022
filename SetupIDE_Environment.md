@@ -35,7 +35,6 @@ Die Schritte 1-3 können unabhängig voneinander durchgeführt werden.
     ```shell
     > git clone https://github.com/STADS-Mannheim/pythonkurs_2022.git
     ```
-    Du wirst nach deinem Github Nutzernamen und -Passwort gefragt und musst die beiden eingeben.
 
 ## Step 2: Setting up PyCharm Workspace
 - Öffne PyCharm.
