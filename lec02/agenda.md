@@ -7,6 +7,7 @@
 
 
 ## Themen 
+* Get started with Syntax
 * [Logische Strukturen (if, for, while), Lambda-Audrücke, Funktionen, Fehler-Handhabung](03_logical_functions.ipynb)
 * [classen in Python, OOP](03_objekt_orientiert.ipynb)
 * Fragen, Ausblick (5 min)
