@@ -17,3 +17,10 @@ remote: Total 469 (delta 255), reused 320 (delta 206), pack-reused 41
 Empfange Objekte: 100% (469/469), 21.02 MiB | 12.38 MiB/s, fertig.
 Löse Unterschiede auf: 100% (259/259), fertig.
 ```
+
+## 2. Schritt: Füge die neuen Dateien zu deinem PyCharm Projekt hinzu
+* Öffne das Projekt, was wir letzte Woche erstellt haben, in PyCharm.
+* Klicke auf File > Open. Dann navigiere zu dem Ort, wo du das geklonte Repository abgespeichert hast. Öffne den Ordner pythonkurs_2022 und klicke einmal auf den lecture Ordner, den du hinzufügen möchtest. Klicke auf open.
+* Nun öffnet sich ein weiteres Fenster mit dem Titel Open Project. Wähle hier die Option Attach. 
+
+
