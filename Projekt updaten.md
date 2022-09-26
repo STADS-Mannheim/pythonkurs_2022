@@ -24,3 +24,7 @@ Löse Unterschiede auf: 100% (259/259), fertig.
 * Nun öffnet sich ein weiteres Fenster mit dem Titel Open Project. Wähle hier die Option Attach. 
 
 
+## Anaconda und Jupyter Notebooks 
+Im Ordner von Lecture 2 findet ihr Dateien mit der Endung .ipynb. Bei diesen Dateien handelt es sich um Jupyter Notebooks. In PyCharm Community Edition habt ihr leider nur Lesezugriff auf diese. Mithilfe von Anaconda könnt ihr diese Dateien auch bearbeiten. Dazu müsst ihr das Programm Anaconda Navigator öffnen. Nachdem dieser geöffnet ist, klickt ihr bei jupyter notebook auf launch. Nun öffnet sich das Terminal und anschließend euer Internet Explorer. Im Reiter Files könnt ihr nun zu euren ipynb Dateien steuern und diese öffnen. Diese könnt ihr im Folgenden bearbeiten und ausführen.
+
+
