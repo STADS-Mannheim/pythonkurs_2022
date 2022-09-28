@@ -4,7 +4,7 @@ Führe die Schritte bitte in der angegebenen Reihenfolge aus.
 
 ## Step 1: Installiere Git
 
-- Installiere [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) beschrieben und wähle die vorausgewählten Standardeinstellungen.
+- Installiere [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) wie beschrieben und wähle die vorausgewählten Standardeinstellungen.
 
 ## Step 2: Clone Repository
 - Öffne die Git Bash (oder das Terminal) und navigiere mit `cd` zum Ordner, in dem du dein Pythonkurs-Repository ablegen möchtest, z.B.
