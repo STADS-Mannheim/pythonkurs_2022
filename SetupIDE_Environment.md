@@ -1,17 +1,26 @@
 # Get Started Teil 1: Setting up development environment
 
-Die Schritte 1-3 können unabhängig voneinander durchgeführt werden. 
+Führe die Schritte bitte in der angegebenen Reihenfolge aus.
 
-## Step 1: Installiere Git und trete Github Classroom bei
+## Step 1: Installiere Git
 
 - Installiere [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) beschrieben und wähle die vorausgewählten Standardeinstellungen.
-- Erstelle dir einen [Github-Account](https://github.com/join).
 
-## Step 2: Installiere PyCharm als IDE
+## Step 2: Clone Repository
+- Öffne die Git Bash (oder das Terminal) und navigiere mit `cd` zum Ordner, in dem du dein Pythonkurs-Repository ablegen möchtest, z.B.
+    ```shell
+    > cd C:\Users\moritzkern\projects\uni
+    ```
+- Klone unser Repository wie folgt. Ersetze dabei %githubname% durch den Namen unseres Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
+    ```shell
+    > git clone https://github.com/STADS-Mannheim/pythonkurs_2022.git
+    ```
+
+## Step 3: Installiere PyCharm als IDE
 
 - Installiere die aktuelle Version von [PyCharm Community Edition](https://www.jetbrains.com/de-de/pycharm). Folge dazu den Installationsanweisungen für dein Betriebssystem. Führe die .exe-Datei aus, die du heruntergeladen hast und folge den Voreinstellungen im Installationsprozess.
 
-## Step 3: Installiere Python und Anaconda 
+## Step 4: Installiere Python und Anaconda 
 - Installiere [Python Version 3.10.7](https://www.python.org/downloads/). Lade auch hier die Version für dein Betriebssystem herunter und folge (unter Windows) den Voreinstellungen beim Ausführen der .exe-Datei. Eine Einstellung musst du dabei ändern - und zwar, wenn du den Installer öffnest, wähle [beim Installer](https://docs.python.org/3/_images/win_installer.png) ```Add Python 3.10 to PATH``` aus.
 - Melde dich am Computer ab und melde dich erneut an.
 - Lade [Anaconda](https://www.anaconda.com) herunter. Nach dem Download führe die exe Datei aus und übernehme die empfohlenen Einstellungen. 
@@ -23,20 +32,7 @@ Die Schritte 1-3 können unabhängig voneinander durchgeführt werden.
 - Abschließend installieren wir noch jupyter. Führe dazu den Befehl conda install jupyter aus. 
 - Glückwunsch, du hast nun dein conda environment installiert. Schließe es wieder mit conda deactivate. Nun kannst du das Terminal schließen. 
  
-# Get Started Teil 2: Setting up Pythonkurs Projekt
-
-
-## Step 1: Clone Repository
-- Öffne die Git Bash (oder das Terminal) und navigiere mit `cd` zum Ordner, in dem du dein Pythonkurs-Repository ablegen möchtest, z.B.
-    ```shell
-    > cd C:\Users\moritzkern\projects\uni
-    ```
-- Klone unser Repository wie folgt. Ersetze dabei %githubname% durch den Namen unseres Repositories. Den Namen des Repositories siehst du, wenn du auf `Code`in Github klickst.
-    ```shell
-    > git clone https://github.com/STADS-Mannheim/pythonkurs_2022.git
-    ```
-
-## Step 2: Setting up PyCharm Workspace
+## Step 5: Setting up PyCharm Workspace
 - Öffne PyCharm.
 - Erstelle ein neues Projekt, indem du auf New Project klickst.
 - Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
