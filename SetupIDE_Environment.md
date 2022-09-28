@@ -35,7 +35,7 @@ Führe die Schritte bitte in der angegebenen Reihenfolge aus.
 ## Step 5: Setting up PyCharm Workspace
 - Öffne PyCharm.
 - Erstelle ein neues Projekt, indem du auf New Project klickst.
-- Wähle den Reiter "Pure Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
+- Wähle den Reiter "Python" und passe im Location Feld den Namen zu Pfad + "\Pythonkurs" an.
 - Als nächstes wählen wir unser conda environment aus. Klicke hierzu auf den Reiter Python Interpreter und wähle "Previously configured interpreter" aus. Klicke auf Add Interpreter, anschließend auf Add local interpreter. Nun wähle Conda Environment aus. Wähle unser environment pythonkurs aus und klicke auf ok. Entferne den Haken bei Create a main.py welcome script und klicke auf create. Super, du hast nun dein erstes PyCharm Projekt erstellt.
 - Öffne nun in PyCharm den Ordner, in den du das Repository geklont hast mit `File > Open Folder`, z.B. ```C:\Users\moritzkern\projects\uni\pythonkurs2020_1_get_started_%username%```
 
