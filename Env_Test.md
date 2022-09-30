@@ -19,7 +19,7 @@ Theoretisch könnte es auch sein, dass du nur in der Pyhton Konsole den falschen
 
 ```conda activate pythonkurs``` 
 
-pythonkurs ist hier der Name deines Environments. Falls du dieses anderes benannt haben solltet, musst du natürlich pythonkurs durch deinen Namen ersetzen.
+pythonkurs ist hier der Name deines Environments. Falls du dieses anderes benannt haben solltest, musst du natürlich pythonkurs durch deinen Namen ersetzen.
 
 Gebe den Befehl 
 
@@ -32,9 +32,9 @@ aus. Als Output wird dir eine Liste mit installierten Packages angezeigt. Falls 
 wobei du den Pfad am Ende natürlich durch den Pfad zum Speicherort deiner Requirements Datei ersetzen musst (diese findest du in dem Ordner, in den du das Repo geklont hast). Falls dies nicht funktioniert, musst du ggf. zuerst noch ```conda install pip``` ausführen. 
 
 ## 3. Falls alles nicht funktioniert....
-...schreib mir bitte bis Sonntag Abend eine Mail und wir organisieren nochmal eine Sprechstunde. 
+...schreib mir bitte bis Sonntag Abend eine Mail an lucas.linden@stads.de und wir organisieren nochmal eine Sprechstunde. 
 
-Die gute Nachricht ist, wenn das funktioniert, sollte es für den Rest des Kurses keine technischen Probleme mehr geben ;-)
+Die gute Nachricht ist: Wenn das funktioniert, sollte es für den Rest des Kurses keine technischen Probleme mehr geben ;-)
 
 
 
