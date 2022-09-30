@@ -10,6 +10,9 @@ Falls dir keine Fehlermeldung angezeigt wird, hat alles funktioniert und du bist
 ## 1. Möglichkeit: Du hast in PyCharm nicht den richtigen Interpreter konfiguriert
 Wenn du dein Projekt in PyCharm geöffnet hast, findest du in der rechten unteren Ecke eine Leiste. Falls in dieser Leiste nur z. B. Python 3.9 steht, hast du deinen Interpreter nicht gesetzt. KLicke darauf, nun sollten dir andere Interpreter angezeigt werden. Unter anderem auch den Interpreter, den wir mit unserem Environment erstellt haben. Wähle diesen aus. Nun sollte PyCharm kurz laden. Danach kannst du Schritt 1 wiederholen und testen, ob es nun funktioniert. 
 
+Theoretisch könnte es auch sein, dass du nur in der Pyhton Konsole den falsche Interpreter hast. Um dies zu testen, öffne bitte in PyCharm die Einstellungen. Klicke anschließend auf Build, Execution, Deployment. Dann auf Console > Python Console. Wähle bei Python Interpreter unser conda environment aus. 
+
+
 ## 2. Möglichkeit: Dein Environment ist leer
 
 Öffne das Terminal / die Command Prompt (in Windows cmd eingeben) und gebe folgendes ins Terminal ein: 
