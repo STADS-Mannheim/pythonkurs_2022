@@ -8,7 +8,7 @@
 
 ## Repository klonen
 
-Wie vor jeder neuen Vorlesung, müsst ihr das [Projekt updaten](https://github.com/STADS-Mannheim/pythonkurs_2022/blob/main/Projekt%20updaten.md)
+Wie vor jeder neuen Vorlesung, müsst ihr das [Projekt updaten](https://github.com/STADS-Mannheim/pythonkurs_2022/blob/main/Projekt%20updaten.md). Zudem bitte ich euch vor der Vorlesung einmal zu überprüfen, ob euer [Environment funktioniert](https://github.com/STADS-Mannheim/pythonkurs_2022/blob/main/Env_Test.md), da wir nun Libaries benutzen werden
 ## Themen 
 
 * Besprechung Aufgaben von letzter Woche
