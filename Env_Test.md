@@ -21,8 +21,15 @@ Theoretisch könnte es auch sein, dass du nur in der Pyhton Konsole den falsche 
 
 pythonkurs ist hier der Name eures Environments. Falls ihr dieses anderes benannt haben solltet, müsst ihr natürlich pythonkurs durch euren Namen ersetzen.
 
-Gebe den Befehl ```conda list``` aus. Falls 
-Führe nun folgenden Befehl aus: ```pip install -r C:\Users\Lucas\Documents\requirements.txt``` wobei du den Pfad am Ende natürlich durch den Pfad zum Speicherort deiner Requirements Datei ersetzen musst (diese findest du in dem Ordner, in den du das Repo geklont hast). Falls dies nicht funktioniert, musst du ggf. zuerst noch ```conda install pip``` ausführen. 
+Gebe den Befehl 
+
+```conda list``` 
+
+aus. Als Output wird dir eine Liste mit installierten Packages angezeigt. Falls du dort numpy nicht findest, führe nun folgenden Befehl aus: 
+
+```pip install -r C:\Users\Lucas\Documents\requirements.txt``` 
+
+wobei du den Pfad am Ende natürlich durch den Pfad zum Speicherort deiner Requirements Datei ersetzen musst (diese findest du in dem Ordner, in den du das Repo geklont hast). Falls dies nicht funktioniert, musst du ggf. zuerst noch ```conda install pip``` ausführen. 
 
 ## 3. Falls alles nicht funktioniert....
 ...schreib mir bitte bis Sonntag Abend eine Mail und wir organisieren nochmal eine Sprechstunde. 
