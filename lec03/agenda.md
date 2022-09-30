@@ -8,7 +8,7 @@
 
 ## Repository klonen
 
-Wie vor jeder neuen Vorlesung, müsst ihr das [Projekt updaten](Projekt updaten.ipynb)
+Wie vor jeder neuen Vorlesung, müsst ihr das [Projekt updaten](https://github.com/STADS-Mannheim/pythonkurs_2022/blob/main/Projekt%20updaten.md)
 ## Themen 
 
 * Wiederholung classes
