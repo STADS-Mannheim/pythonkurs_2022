@@ -8,7 +8,7 @@
 
 ## Repository klonen
 
-Wie vor jeder neuen Vorlesung, müsst ihr das [Repo aktualisieren](Projekt updaten.md)
+Wie vor jeder neuen Vorlesung, müsst ihr das [Projekt updaten](Projekt_updaten.ipynb)
 ## Themen 
 
 * Wiederholung classes
