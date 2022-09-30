@@ -8,8 +8,7 @@
 
 ## Repository klonen
 
-* Ihr müsst dazu `git clone https://github.com/STADS-Mannheim/%repositoryname%` in eurem Terminal ausführen.
-
+Wie vor jeder neuen Vorlesung, müsst ihr das [Repo aktualisieren](Projekt updaten.md)
 ## Themen 
 
 * Wiederholung classes
