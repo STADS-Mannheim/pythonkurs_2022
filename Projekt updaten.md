@@ -19,6 +19,7 @@ Löse Unterschiede auf: 100% (259/259), fertig.
 ```
 
 ## 2. Schritt: Füge die neuen Dateien zu deinem PyCharm Projekt hinzu
+* Wenn du das Repo wie vorher beschrieben, an den selben Ort geklont hast, solltest du nun fertig sein. Du kannst dies einfach checken, indem du dein PyCharm Projekt öffnest und nachschaust, ob die neuen Dateien vorhanden sind. Falls dem nicht so ist, führe die folgenden Schritte aus:
 * Öffne das Projekt, was wir letzte Woche erstellt haben, in PyCharm.
 * Klicke auf File > Open. Dann navigiere zu dem Ort, wo du das geklonte Repository abgespeichert hast. Öffne den Ordner pythonkurs_2022 und klicke einmal auf den lecture Ordner, den du hinzufügen möchtest. Klicke auf open.
 * Nun öffnet sich ein weiteres Fenster mit dem Titel Open Project. Wähle hier die Option Attach. 
