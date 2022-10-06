@@ -17,46 +17,48 @@
 
 ########################################################################################################################
 # Aufgabe 4
-# Lasse dir die letzen 5 Zeilen anzeigen (Tipp: tail)
-
-
-########################################################################################################################
-# Aufgabe 5
 # Lasse dir alle Indizenzen für den 13. Oktober (2020-10-13) ausgeben
 # ...
 
 
 ########################################################################################################################
-# Aufgabe 6
+# Aufgabe 5
 # Lasse dir das Bundesland ausgeben, in dem die höchste Inzidenz geherrscht hat am 13. Oktober
 # Tipp: idxmax()
 
 
 ########################################################################################################################
-# Aufgabe 7
+# Aufgabe 6
 # Lasse dir für Baden-Württemberg die Zahlen von 01. Oktober bis einschließlich 15. Oktober ausgeben
 # Tipp: df.loc[...][...:...]
 
 
 ########################################################################################################################
-# Aufgabe 8
+# Aufgabe 7
 # Gruppiere nach Wochentagen (Mo-Fr), und bilde den jeweiligen Mittelwert über alle Observationen an dem Wochentag für jedes Bundesland
 # Tipp: df.columns.weekday, axis=1, mean
 # ...
 
 
 ########################################################################################################################
-# Aufgabe 9
+# Aufgabe 8
 # Verwende das Ergebnis des letzten Schritts und berechne den Mittelwert über alle Bundesländer für die jeweiligen Wochentage
 # Tipp: groupby, mean
 # ...
 
 
 ########################################################################################################################
-# Aufgabe 10
+# Aufgabe 9
 # Logarithmiere alle Werte im Datensatz und speichere ihn als df_log
 # Tipp: apply, np.log
 df_log = # ...
+
+
+########################################################################################################################
+# Aufgabe 10
+# Berechne nun die Differenz der logarithmierten Werte von einem auf den nächsten Tag
+# Tipp: diff, axis=1
+df_logdiff = df.diff(axis=1)
 
 
 ########################################################################################################################
