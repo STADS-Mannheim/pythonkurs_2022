@@ -11,4 +11,4 @@
 * [Übung Pandas](03_pandas_exercise.py) mit [Lösung](06_pandas_exercise_solution.ipynb)
 * [Info zu Matplotlib](04_matplotlib.ipynb)
 * [Übung Matplotlib](05_matplotlib_exercise.py) mit [Lösung](07_matplotlib_exercise_solution.ipynb)
-* Fragen, Ausblick (5 min)
+* Fragen, Ausblick 
