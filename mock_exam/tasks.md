@@ -81,6 +81,3 @@ Für diese Aufgabe benötigen Sie den Datensatz [pendler.csv](pendler.csv).
 
 * Erstellen Sie einen Scatterplot mit den Einpendlern auf der x-Achse und den Auspendlern auf der y-Achse. Sie dürfen dabei ein Paket Ihrer Wahl verwenden (z.B. Pandas, Matplotlib, Seaborn, Plotly). *(5 Punkte)*
 
-## Abgabe
-
-Senden Sie die *beiden* von Ihnen erstellten Dateien bis Abgabeschluss per E-Mail an [kurse@stads.de](mailto:kurse@stads.de).
