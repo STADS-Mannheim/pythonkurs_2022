@@ -60,6 +60,3 @@ dictionary = {
     3: lambda x: x ** 3,
 }
 ```
-
-Black kann beispielsweise auch in VSCode als Formatter on Save eingestellt werden oder
-in Precommit integriert werden.
