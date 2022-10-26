@@ -48,8 +48,6 @@ Der Code muss in Python >=3.8.5 mit numpy >=1.19.2, pandas >=1.1.3, matplotlib >
 
 ## Aufgabe 2: Wichtige Pakete *(27 Punkte)*
 
-* Erstellen Sie ein IPython-Notebook mit dem Namen `<Nachname>_<Vorname>_mockexam.ipynb` (z.B. `musterman_max_mockexam.ipynb`) und bearbeiten in dieser Datei die Aufgabe.
-
 ### Aufgabe 2a: Numpy *(7 Punkte)*
 * Erstellen Sie geschickt einen Vektor `v`, der wie folgt aussieht. *(1 Punkt)*
     ```
