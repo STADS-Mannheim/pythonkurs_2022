@@ -13,7 +13,7 @@ Der Code muss in Python >=3.8.5 mit numpy >=1.19.2, pandas >=1.1.3, matplotlib >
 ### Aufgabe 1a: Get Started *(2 Punkte)*
 
 * Definieren Sie die beiden Variablen `a` und `b` als `3` bzw. `5` *(1 Punkt)*
-* Geben Sie das Produkt das Ergebnis von (a-b)/(a+b) aus. (Tipp: print) *(1 Punkt)*
+* Geben Sie das Ergebnis von (a-b)/(a+b) aus. (Tipp: print) *(1 Punkt)*
 
 ### Aufgabe 1b: Einfache Funktion *(6 Punkte)*
 
@@ -57,8 +57,8 @@ Der Code muss in Python >=3.8.5 mit numpy >=1.19.2, pandas >=1.1.3, matplotlib >
 * Setzen Sie das letzte Element rechts unten in der Matrix `m` auf `NA`. *(1 Punkt)*
 * Initialisieren Sie einen Zufallszahlengenerator. *(1 Punkt)*
 * Verwenden Sie den Zufallszahlengenerator, um einen Vektor `z` der Dimension (1,50) mit unabhängig normalverteilten Zufallsvariablen zu erzeugen. *(1 Punkt)*
-* Berechnen Sie elementweise den Logarithmus von `z` und speichern Sie den Vektor als `z_log`. *(1 Punkte)*
-* Berechnen Sie mit das Matrixprodukt von `z_log` und `m`. *(1 Punkt)*
+* Wenden Sie elementenweise die Exponentialfuktion auf `z` an und speichern Sie den Vektor als `z_exp`. *(1 Punkte)*
+* Berechnen Sie mit das Matrixprodukt von `z_exp` und `m`. *(1 Punkt)*
 
 ### Aufgabe 2b: Pandas Basics *(9 Punkte)*
 
