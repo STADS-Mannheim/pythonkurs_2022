@@ -10,7 +10,8 @@ Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://class
 ## Themen 
 
 * Organisatorisches zur Zeritifkatsklausur und zur Schlüsselqualifikationprüfung.
+* Ergänzungen zu letzter Woche 
 * [Pylint](01_pylint.md)
 * [Black](03_black.md)
 * [Docstrings und Doctests](06_docstringtest.md)
-* Fragen, Ausblick
+* Übungsklausur
