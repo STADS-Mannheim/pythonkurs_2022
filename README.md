@@ -25,7 +25,7 @@ Es wird eine Zertifikatsklausur und eine Klausur für die Schlüsselqualifikatio
 
 Beide Prüfungen werden voraussichtlich als Online Open Book Klausuren geschrieben.
 
-Die **Zertifikats-Prüfung** findet am *tbd* statt. Es kann zwischen zwei Terminen frei gewählt werden, eine Anmeldung ist nicht erforderlich. Zur Vorbereitung empfehlen wir die [Übungsklausur](mock_exam/tasks.md) sowie die Altklausuren. Die Materialien erhaltet ihr wenige Minuten vor Beginn der Klausur sowohl per E-Mail als auch über diese Webseite hier bereitgestellt. Die Prüfung ist eine Open-Book-Klausur, d.h. es dürfen die Kursmaterialien und Google verwendet werden :)
+Die **Zertifikats-Prüfung** findet am *23.11.2022 von 17.30-18.30 Uhr* statt. Es kann zwischen zwei Terminen frei gewählt werden, eine Anmeldung ist nicht erforderlich. Zur Vorbereitung empfehlen wir die [Übungsklausur](mock_exam/tasks.md) sowie die Altklausuren. Die Materialien erhaltet ihr wenige Minuten vor Beginn der Klausur sowohl per E-Mail als auch über diese Webseite hier bereitgestellt. Die Prüfung ist eine Open-Book-Klausur, d.h. es dürfen die Kursmaterialien und Google verwendet werden :)
 
 Der Termin zur **Schlüsselqualifikation** (Wima-Bachelor) wird vom Prüfungsamt festgelegt. Die Anmeldung erfolgt über das Portal 2.
 
