@@ -10,7 +10,7 @@ Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://class
 ## Themen 
 
 * Organisatorisches *(10 min)*
-* Datenscrapping 
+* Besprechung des Mock Exams 
 * Multiprocessing 
 * Fragen, Ausblick (5 min)
 
