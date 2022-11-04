@@ -5,7 +5,6 @@
 * Meeting-ID: 67903958462
 * Passcode: 265810
 
-Die Kursunterlagen können wieder [als Assignment heruntergeladen](https://classroom.github.com/a/dr22GX9D) werden.
 
 ## Themen 
 
