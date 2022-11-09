@@ -29,36 +29,40 @@ def create_ranking_file(params):
     person = params['person']
     output_directory = params['output_directory']
 
-    print('Process ',file)
-    file_path = input_directory + '/' + file
-    df = pd.read_parquet(file_path)
+    try:
+        print('Process ',file)
+        file_path = input_directory + '/' + file
+        df = pd.read_parquet(file_path)
+    except:
+        df = pd.DataFrame()
 
-    # Kleinschreibung
-    df.PERSONS = df.PERSONS.apply(lambda x: kleinschreibung(x))
-    df.ORGANIZATIONS = df.ORGANIZATIONS.apply(lambda x: kleinschreibung(x))
+    if len(df)>0:
+        # Kleinschreibung
+        df.PERSONS = df.PERSONS.apply(lambda x: kleinschreibung(x))
+        df.ORGANIZATIONS = df.ORGANIZATIONS.apply(lambda x: kleinschreibung(x))
 
-    # Finde alle Artikel, die die Organization enthalten und lösche alle anderen
-    df[person] = df.PERSONS.apply(lambda x: find_person(x, person))
-    df = df[df[person] != -1]
+        # Finde alle Artikel, die die Organization enthalten und lösche alle anderen
+        df[person] = df.PERSONS.apply(lambda x: find_person(x, person))
+        df = df[df[person] != -1]
 
-    # Berechne Abstände im Text
-    df.PERSONS = df.apply(lambda x: compute_distances(x, person, 'PERSONS'), axis=1)
-    df.ORGANIZATIONS = df.apply(lambda x: compute_distances(x, person, 'ORGANIZATIONS'), axis=1)
+        # Berechne Abstände im Text
+        df.PERSONS = df.apply(lambda x: compute_distances(x, person, 'PERSONS'), axis=1)
+        df.ORGANIZATIONS = df.apply(lambda x: compute_distances(x, person, 'ORGANIZATIONS'), axis=1)
 
-    # Berechne Anzahl der Nennungen
-    persons = [key.lower() for sublist in df.PERSONS.values.tolist() for key in sublist.keys() if key.lower() != person]
-    organizations = [key.lower() for sublist in df.ORGANIZATIONS.values.tolist() for key in sublist.keys()]
+        # Berechne Anzahl der Nennungen
+        persons = [key.lower() for sublist in df.PERSONS.values.tolist() for key in sublist.keys() if key.lower() != person]
+        organizations = [key.lower() for sublist in df.ORGANIZATIONS.values.tolist() for key in sublist.keys()]
 
-    person_mentions = dict(Counter(persons))
-    organization_mentions = dict(Counter(organizations))
+        person_mentions = dict(Counter(persons))
+        organization_mentions = dict(Counter(organizations))
 
-    df_out = pd.DataFrame.from_dict((sorted(person_mentions, key=person_mentions.get, reverse=False)[:100])).rename(columns={0: 'Person'})
-    df_out['Organization']= sorted(organization_mentions, key=organization_mentions.get, reverse=False)[:100]
+        df_out = pd.DataFrame.from_dict((sorted(person_mentions, key=person_mentions.get, reverse=False)[:100])).rename(columns={0: 'Person'})
+        df_out['Organization']= sorted(organization_mentions, key=organization_mentions.get, reverse=False)[:100]
 
-    print('Save ranking.')
-    timestamp = file.split('.')[0].split('_')[-1]
-    surname = person.split(' ')[-1]
-    df.to_csv(output_directory + '/ranking_' + surname + '_' + timestamp + '.csv')
+        print('Save ranking.')
+        timestamp = file.split('.')[0].split('_')[-1]
+        surname = person.split(' ')[-1]
+        df.to_csv(output_directory + '/ranking_' + surname + '_' + timestamp + '.csv')
 
 
 # Define daily retrieval and filterting as process
@@ -86,7 +90,6 @@ class Worker(mp.Process):
 
             # Else: retrieve GKG daily file
             create_ranking_file(params)
-
 
 if __name__ == "__main__":
 
