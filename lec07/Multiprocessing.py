@@ -28,8 +28,9 @@ def main():
 
     print('finished main')
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
+# More information: https://superfastpython.com/multiprocessing-spawn-runtimeerror/
     # classic python
     fun(1)
     fun(2)
