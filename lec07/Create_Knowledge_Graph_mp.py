@@ -62,7 +62,7 @@ def create_ranking_file(params):
         print('Save ranking.')
         timestamp = file.split('.')[0].split('_')[-1]
         surname = person.split(' ')[-1]
-        df.to_csv(output_directory + '/ranking_' + surname + '_' + timestamp + '.csv')
+        df_out.to_csv(output_directory + '/'+ surname + '/ranking_' + surname + '_' + timestamp + '.csv')
 
 
 # Define daily retrieval and filterting as process
